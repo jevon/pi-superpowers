@@ -1,10 +1,17 @@
 {
   "name": "pi-superpowers",
-  "version": "1.0.0",
-  "description": "A skill-driven workflow system for pi. Includes skills for brainstorming, planning, TDD, debugging, code review, git workflow, and verification.",
+  "version": "1.1.0",
+  "description": "A skill-driven workflow system for pi. Includes skills for brainstorming, planning, TDD, debugging, code review, git workflow, and verification — plus todo tracker and prompt_user tools.",
   "keywords": ["pi-package"],
   "license": "MIT",
   "pi": {
-    "skills": ["./skills"]
+    "skills": ["./skills"],
+    "extensions": ["./extensions"]
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-ai": "*",
+    "@mariozechner/pi-coding-agent": "*",
+    "@mariozechner/pi-tui": "*",
+    "@sinclair/typebox": "*"
   }
 }

@@ -2,7 +2,9 @@
 
 A skill-driven workflow system for [pi](https://github.com/badlogic/pi). Ensures the right skills are loaded before any implementation, debugging, or multi-step work.
 
-## Skills Included
+## What's Included
+
+### Skills
 
 | Skill | Description |
 |-------|-------------|
@@ -14,6 +16,13 @@ A skill-driven workflow system for [pi](https://github.com/badlogic/pi). Ensures
 | `code-review` | Self-review and responding to external feedback |
 | `git-workflow` | Worktree creation, setup, and branch management |
 | `verification` | Verify work is actually complete before claiming success |
+
+### Extensions (Tools)
+
+| Tool | Description |
+|------|-------------|
+| `todo` | Task/todo list management for tracking implementation progress. Supports create, add, batch, start/done/skip/block/reset, list, summary, clear. Includes a `/todos` command for interactive viewing. |
+| `prompt_user` | Ask the user questions during workflows — select from options, yes/no confirmations, or free text input. |
 
 ## Install
 
