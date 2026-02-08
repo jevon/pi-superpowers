@@ -19,7 +19,7 @@ A skill-driven workflow system for [pi](https://github.com/badlogic/pi). Ensures
 
 ```bash
 # From GitHub
-pi install https://github.com/YOUR_USERNAME/pi-superpowers
+pi install https://github.com/jevon/pi-superpowers
 
 # From npm (if published)
 pi install npm:pi-superpowers
