@@ -6,8 +6,7 @@
   "license": "MIT",
   "pi": {
     "skills": ["./skills"],
-    "extensions": ["./extensions"],
-    "themes": ["./themes"]
+    "extensions": ["./extensions"]
   },
   "peerDependencies": {
     "@mariozechner/pi-ai": "*",
